@@ -12,5 +12,166 @@
         "layout": "border"
     },
     "name": "MyViewport",
-    "designerId": "a32f61d6-ab1c-4c75-8284-82c3e5057403"
+    "designerId": "a32f61d6-ab1c-4c75-8284-82c3e5057403",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyCls": [
+                    "app-top-div"
+                ],
+                "defaults": [
+                    "{",
+                    "border:false",
+                    "}"
+                ],
+                "height": 99,
+                "html": [
+                    "'<div class=\"app-top-div\"></div>'"
+                ],
+                "iconCls": null,
+                "id": "north-panel",
+                "layout": "fit",
+                "layout|region": "north"
+            },
+            "name": "MyPanel2",
+            "designerId": "217e6540-4b30-492a-a8ee-10b958a5f5b8",
+            "cn": [
+                {
+                    "type": "Ext.toolbar.Toolbar",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "middle",
+                        "container|pack": "end",
+                        "dock": "bottom"
+                    },
+                    "name": "MyToolbar",
+                    "designerId": "f0179c35-98d7-40fd-963d-7c7d4c543b4c",
+                    "cn": [
+                        {
+                            "type": "Ext.form.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "lblCurDept",
+                                "layout|flex": null,
+                                "text": "当前机构："
+                            },
+                            "name": "MyLabel1",
+                            "designerId": "d146bc95-324e-453b-a273-6f9eec1e146d"
+                        },
+                        {
+                            "type": "Ext.form.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "lblCurUserName",
+                                "layout|flex": null,
+                                "text": "当前用户："
+                            },
+                            "name": "MyLabel",
+                            "designerId": "b2e84153-22d5-4d45-a27f-ab0b9b997e98"
+                        },
+                        {
+                            "type": "Ext.toolbar.Separator",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null
+                            },
+                            "name": "MySeparator",
+                            "designerId": "1d13823e-9415-49df-9fe7-2dfc4f3e3037"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": "password",
+                                "id": "btnChangePassword",
+                                "layout|flex": null,
+                                "text": "修改密码"
+                            },
+                            "name": "MyButton1",
+                            "designerId": "4aeda85b-922a-4da8-91f0-40ec23d4f32c"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": "logout",
+                                "id": "btnLogout",
+                                "layout|flex": null,
+                                "text": "安全退出"
+                            },
+                            "name": "MyButton",
+                            "designerId": "4a10123d-9296-4405-840f-63300a1be1dd"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "animCollapse": false,
+                "collapsed": false,
+                "collapsible": true,
+                "id": "west-panel",
+                "layout": "accordion",
+                "layout|region": "west",
+                "layout|split": true,
+                "margin": 0,
+                "maxWidth": 400,
+                "minWidth": 175,
+                "title": "功能菜单",
+                "width": 200
+            },
+            "name": "MyPanel1",
+            "designerId": "aa2d0928-f0f5-4fd4-967e-8c62d48fb674"
+        },
+        {
+            "type": "Ext.tab.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "center"
+            },
+            "name": "MyTabPanel",
+            "designerId": "2c623166-bb4a-4172-8a05-ab191143a006"
+        }
+    ]
 }

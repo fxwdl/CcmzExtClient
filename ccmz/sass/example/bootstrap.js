@@ -1825,7 +1825,6 @@ Ext.Boot.loadSync([
   "../../ext/src/lang/Function.js",
   "../../ext/src/lang/Object.js",
   "../../ext/src/lang/Date.js",
-  "../../build/temp/development/ccmz/sencha-compiler/cmd-packages.js",
   "../../ext/src/class/Base.js",
   "../../ext/src/class/Class.js",
   "../../ext/src/class/ClassManager.js",
@@ -3801,7 +3800,6 @@ Ext.setVersion("ext-locale", "1.0.0");
  * provided to support globbing requires, custom xtypes, and other
  * metadata-driven class system features
  */
-Ext.Loader.loadScriptFile('../../build/temp/development/ccmz/sencha-compiler/cmd-packages.js', Ext.emptyFn);
 Ext.Loader.loadScriptFile('../../ext/packages/ext-theme-neptune/overrides/Component.js', Ext.emptyFn);
 Ext.Loader.loadScriptFile('../../ext/packages/ext-theme-neptune/overrides/toolbar/Toolbar.js', Ext.emptyFn);
 Ext.Loader.loadScriptFile('../../ext/packages/ext-theme-neptune/overrides/toolbar/Paging.js', Ext.emptyFn);

@@ -16,11 +16,93 @@
 Ext.define('ccmz.view.MyViewport', {
     extend: 'Ext.container.Viewport',
 
+    requires: [
+        'Ext.toolbar.Toolbar',
+        'Ext.form.Label',
+        'Ext.toolbar.Separator',
+        'Ext.button.Button',
+        'Ext.tab.Panel'
+    ],
+
     itemId: 'myViewport',
     layout: 'border',
 
     initComponent: function() {
         var me = this;
+
+        Ext.applyIf(me, {
+            items: [
+                {
+                    xtype: 'panel',
+                    region: 'north',
+                    height: 99,
+                    html: '<div class="app-top-div"></div>',
+                    id: 'north-panel',
+                    defaults: {
+                        border: false
+                    },
+                    layout: 'fit',
+                    bodyCls: 'app-top-div',
+                    dockedItems: [
+                        {
+                            xtype: 'toolbar',
+                            dock: 'bottom',
+                            layout: {
+                                type: 'hbox',
+                                align: 'middle',
+                                pack: 'end'
+                            },
+                            items: [
+                                {
+                                    xtype: 'label',
+                                    id: 'lblCurDept',
+                                    text: '当前机构：'
+                                },
+                                {
+                                    xtype: 'label',
+                                    id: 'lblCurUserName',
+                                    text: '当前用户：'
+                                },
+                                {
+                                    xtype: 'tbseparator'
+                                },
+                                {
+                                    xtype: 'button',
+                                    id: 'btnChangePassword',
+                                    iconCls: 'password',
+                                    text: '修改密码'
+                                },
+                                {
+                                    xtype: 'button',
+                                    id: 'btnLogout',
+                                    iconCls: 'logout',
+                                    text: '安全退出'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    xtype: 'panel',
+                    region: 'west',
+                    split: true,
+                    id: 'west-panel',
+                    margin: 0,
+                    maxWidth: 400,
+                    minWidth: 175,
+                    width: 200,
+                    layout: 'accordion',
+                    animCollapse: false,
+                    collapsed: false,
+                    collapsible: true,
+                    title: '功能菜单'
+                },
+                {
+                    xtype: 'tabpanel',
+                    region: 'center'
+                }
+            ]
+        });
 
         me.callParent(arguments);
     }

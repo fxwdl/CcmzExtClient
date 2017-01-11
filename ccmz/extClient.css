@@ -32,3 +32,102 @@
 .ux-rangemenu-eq {
     background-image: url(resources/images/equals.png) !important;
 }
+
+.app-top-div{
+    background-repeat:no-repeat;
+    background-position:left;
+    background-image:url(/images/logo2.png);
+    width:100%;
+    height:100%;
+}
+.system-icon
+{
+    background-image:url(resources/images/cog.png ) !important;
+}
+
+.userManange-icon
+{
+    background-image:url(resources/images/user.png ) !important;
+}
+
+.groupManange-icon
+{
+    background-image:url(resources/images/group.png ) !important;
+}
+
+.roleManange-icon
+{
+    background-image:url(resources/images/role.png ) !important;
+}
+.PermissionManage-icon
+{
+    background-image: url(resources/images/book.png) !important;
+}
+
+.add
+{
+    background-image: url(resources/images/add.gif) !important;
+}
+.modify
+{
+    background-image: url(resources/images/cog_edit.png) !important;
+}
+.delete
+{
+    background-image: url(resources/images/delete.gif) !important;
+}
+.save
+{
+    background-image: url(resources/images/save.gif) !important;
+}
+.password
+{
+    background-image: url(resources/images/password.png) !important;
+}
+.logout
+{
+    background-image: url(resources/images/logout.png) !important;
+}
+.import
+{
+    background-image: url(resources/images/import.png) !important;
+}
+.export
+{
+    background-image: url(resources/images/export.png) !important;
+}
+.addnode
+{
+    background-image: url(resources/images/addNode.png) !important;
+}
+.refresh
+{
+    background-image: url(resources/images/refresh.png) !important;
+}
+.reset
+{
+    background-image: url(resources/images/reset.png) !important;
+}
+.submit
+{
+    background-image: url(resources/images/submit.png) !important;
+}
+.save
+{
+    background-image: url(resources/images/save.png) !important;
+}
+.print
+{
+    background-image: url(resources/images/print.png) !important;
+}
+
+/*.x-btn-default-small .x-btn-inner {
+    font-size: 12px;
+}
+.x-window-header-text-container-default {
+    font-size: 12px;
+}*/
+
+element.style {
+    width: 200px;
+}
