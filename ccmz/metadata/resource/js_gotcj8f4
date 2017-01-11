@@ -1,0 +1,15 @@
+{
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "js_gotcj8f4",
+        "url": "app_ext.js",
+        "x-compile": true
+    },
+    "name": "js",
+    "designerId": "b69dc605-ac59-4a74-9eb8-263ee6a6e437"
+}

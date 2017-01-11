@@ -1,0 +1,62 @@
+{
+    "name": "ccmz",
+    "settings": {
+        "cmd": {
+            "license": "gpl",
+            "cmdVersion": "6.1.2.15",
+            "frameworkVersion": "4.2.1.883"
+        },
+        "urlPrefix": "http://localhost:1841/",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "exportPath": "C:/CCMZ_MVC/Web/ext/dev",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": false,
+        "generateArchitectVersion": true,
+        "installStatus": "Not Installed",
+        "displayfield-ExtBox1-1586-inputEl": "a new version of the framework is available",
+        "lastBuildSelection": {
+            "value": "webBuild",
+            "display": "Build web app"
+        },
+        "displayfield-ExtBox1-1648-inputEl": "a new version of the framework is available",
+        "displayfield-ExtBox1-1133-inputEl": "a new version of the framework is available",
+        "displayfield-ExtBox1-1187-inputEl": "a new version of the framework is available",
+        "displayfield-ExtBox1-1241-inputEl": "a new version of the framework is available",
+        "displayfield-ExtBox1-1296-inputEl": "a new version of the framework is available",
+        "displayfield-ExtBox1-1350-inputEl": "a new version of the framework is available",
+        "displayfield-ExtBox1-1210-inputEl": "a new version of the framework is available"
+    },
+    "xdsVersion": "3.5.1",
+    "xdsBuild": 348,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "a32f61d6-ab1c-4c75-8284-82c3e5057403"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "30d4a096-570b-46ba-a725-81573b7c32e6",
+            "eda6cc81-94b6-44e0-8cb1-46f697af5ad1",
+            "b69dc605-ac59-4a74-9eb8-263ee6a6e437",
+            "79bef52e-d335-428a-be76-9bb1dbf964fd"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

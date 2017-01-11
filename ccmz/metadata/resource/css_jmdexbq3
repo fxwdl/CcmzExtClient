@@ -1,0 +1,14 @@
+{
+    "type": "cssresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "css_jmdexbq3",
+        "url": "extClient.css"
+    },
+    "name": "css",
+    "designerId": "79bef52e-d335-428a-be76-9bb1dbf964fd"
+}

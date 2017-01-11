@@ -1,0 +1,11 @@
+{
+   "name": "ccmz",
+   "requires": [
+      "ext-locale"
+   ],
+   "id": "37ae805d-d7f8-4e27-9025-268036e13cf7",
+   "theme": "ext-theme-neptune-eda6cc81-94b6-44e0-8cb1-46f697af5ad1",
+   "resources": [
+      "extClient.css"
+   ]
+}

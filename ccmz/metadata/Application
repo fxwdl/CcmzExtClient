@@ -1,0 +1,35 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "name": "ccmz",
+        "requires": [
+            "Ext.layout.container.Border"
+        ],
+        "title": "长春市医疗救助管理系统",
+        "views": [
+            "MyViewport"
+        ]
+    },
+    "name": "Application",
+    "designerId": "application",
+    "cn": [
+        {
+            "type": "Ext.Loader",
+            "reference": {
+                "name": "loader",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "enabled": true
+            },
+            "name": "Loader9",
+            "designerId": "b2f8229f-adec-4c7a-8dd9-ae70ffd979e8"
+        }
+    ]
+}

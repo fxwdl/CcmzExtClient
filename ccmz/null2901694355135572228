@@ -1,0 +1,10 @@
+
+
+Ext.Boot.loadSync([
+    "render.js",
+    "../../ext/packages/ext-theme-base/sass/example/manifest.js",
+    "../../ext/packages/ext-theme-base/sass/example/shortcuts.js",
+    "custom.js"
+]);
+
+        

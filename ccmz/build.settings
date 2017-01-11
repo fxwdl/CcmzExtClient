@@ -1,0 +1,7 @@
+{
+    "webBuild": {
+        "environment": "production",
+        "clean": "on",
+        "publishPath": "C:\\CCMZ_MVC\\Web\\ext\\production"
+    }
+}
